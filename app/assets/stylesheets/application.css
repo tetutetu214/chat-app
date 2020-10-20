@@ -30,14 +30,45 @@
 
 .side_head{
   height: 100px;
-  background-color: #253141;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-name a{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
 }
 
-.side_body{
-  height: calc(100vh - 100px);
+.chat-btn{
+  font-size: 10px;
+}
+
+.chat-btn a{
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.rooms {
   background-color: #2F3E51;
+  height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+
+.room-name a{
+  color: white;
+  /* display: block; */
+  text-decoration: none;
 }
 
 .chat{
